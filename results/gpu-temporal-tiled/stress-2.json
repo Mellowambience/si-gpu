@@ -1,0 +1,139 @@
+{
+  "adapter": "NVIDIA GeForce RTX 2080 Ti",
+  "debug_layer": true,
+  "input_size": [
+    13,
+    9
+  ],
+  "output_size": [
+    26,
+    18
+  ],
+  "frames": 8,
+  "repeats_per_frame": 1,
+  "warmups_per_frame": 0,
+  "capture_all": true,
+  "learned": true,
+  "gpu_buffer_payload_mib": 0.0269318,
+  "offline_sequence_wall_ms": 42.7217,
+  "timings": {
+    "spatial": {
+      "p50_ms": 0.005248,
+      "p95_ms": 0.0069552,
+      "p99_ms": 0.00730464,
+      "samples_ms": [
+        0.007392,
+        0.004416,
+        0.006144,
+        0.004672,
+        0.006144,
+        0.004224,
+        0.004224,
+        0.005824
+      ],
+      "steady_history_p50_ms": 0.004543999999999999,
+      "steady_history_p95_ms": 0.006064,
+      "reset_p50_ms": 0.006768
+    },
+    "temporal": {
+      "p50_ms": 0.004096,
+      "p95_ms": 0.0049296,
+      "p99_ms": 0.00526112,
+      "samples_ms": [
+        0.002848,
+        0.004096,
+        0.005344,
+        0.004096,
+        0.003744,
+        0.004096,
+        0.004096,
+        0.00416
+      ],
+      "steady_history_p50_ms": 0.004096,
+      "steady_history_p95_ms": 0.0050479999999999995,
+      "reset_p50_ms": 0.003296
+    },
+    "combined": {
+      "p50_ms": 0.009328,
+      "p95_ms": 0.0110512,
+      "p99_ms": 0.0114006,
+      "samples_ms": [
+        0.01024,
+        0.008512,
+        0.011488,
+        0.008768,
+        0.009888,
+        0.00832,
+        0.00832,
+        0.009984
+      ],
+      "steady_history_p50_ms": 0.00864,
+      "steady_history_p95_ms": 0.011112,
+      "reset_p50_ms": 0.010064
+    }
+  },
+  "frame_combined_p50_ms": [
+    0.01024,
+    0.008512,
+    0.011488,
+    0.008768,
+    0.009888,
+    0.00832,
+    0.00832,
+    0.009984
+  ],
+  "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+  "parity_pass": true,
+  "parity_tolerance": 5e-06,
+  "frame_parity": [
+    {
+      "frame": 0,
+      "reset": true,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 6.4316978409806325e-09
+    },
+    {
+      "frame": 1,
+      "reset": false,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 1.2466720988868474e-08
+    },
+    {
+      "frame": 2,
+      "reset": false,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 1.3439834134487683e-08
+    },
+    {
+      "frame": 3,
+      "reset": false,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 5.094414223805188e-09
+    },
+    {
+      "frame": 4,
+      "reset": true,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 5.2721880194894766e-09
+    },
+    {
+      "frame": 5,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 6.674478303381193e-09
+    },
+    {
+      "frame": 6,
+      "reset": false,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 5.691415783104503e-09
+    },
+    {
+      "frame": 7,
+      "reset": false,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 6.787245432349209e-09
+    }
+  ],
+  "sequence_sha256": "ca48671fdff67f11df0fa6a5504435ea5ddc0787ac43bb4a5326c6e04e0b8ef0"
+}

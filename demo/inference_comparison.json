@@ -1,0 +1,49 @@
+{
+  "scope": "CPU inference; 15 timing samples after warmup; separately traced Python/NumPy allocations, not process RSS or GPU memory",
+  "results": [
+    {
+      "implementation": "original",
+      "input_size": [
+        64,
+        64
+      ],
+      "scale": 3,
+      "p50_ms": 3.2693000030121766,
+      "p95_ms": 4.563769998640055,
+      "traced_peak_mib": 1.3144607543945312
+    },
+    {
+      "implementation": "refined",
+      "input_size": [
+        64,
+        64
+      ],
+      "scale": 3,
+      "p50_ms": 3.057599999010563,
+      "p95_ms": 4.548249999061226,
+      "traced_peak_mib": 0.9419746398925781
+    },
+    {
+      "implementation": "original",
+      "input_size": [
+        256,
+        256
+      ],
+      "scale": 3,
+      "p50_ms": 64.38770000386285,
+      "p95_ms": 73.3766299978015,
+      "traced_peak_mib": 21.00196075439453
+    },
+    {
+      "implementation": "refined",
+      "input_size": [
+        256,
+        256
+      ],
+      "scale": 3,
+      "p50_ms": 56.41420000029029,
+      "p95_ms": 71.45407000207342,
+      "traced_peak_mib": 15.013206481933594
+    }
+  ]
+}

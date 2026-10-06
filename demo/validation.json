@@ -1,0 +1,8 @@
+{
+  "unit_tests_passed": 17,
+  "cli_smoke_checks": [
+    "demo scales 2,3,4",
+    "upscale scale 3",
+    "sequence 8 frames scale 3"
+  ]
+}

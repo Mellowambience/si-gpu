@@ -1,0 +1,18 @@
+{
+  "unit_tests_passed": 38,
+  "primary_learning_cycles": 3,
+  "primary_candidates_trained": 18,
+  "accepted_offline_model": "cycle-000003-candidate-03",
+  "accepted_runtime_model": "cycle-000003-candidate-03",
+  "primary_audit_gain_db": 0.06512518478568419,
+  "independent_auto_promotion_gain_db": 0.06312604565461033,
+  "promotion_rollback_verified": true,
+  "installed_auto_cycle_verified": true,
+  "background_service_running": false,
+  "limitations": [
+    "Synthetic linear-filter learning",
+    "No neural or game capture learning",
+    "Offline GPU gates passed; engine performance remains unverified"
+  ],
+  "quiet_gpu_three_run_pass": true
+}

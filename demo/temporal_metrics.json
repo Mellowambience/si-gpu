@@ -1,0 +1,84 @@
+{
+  "scale": 3,
+  "frames_per_case": 16,
+  "cases": [
+    {
+      "seed": 200,
+      "noise_std": 0,
+      "mean_mse": {
+        "spatial": 0.024126714910380542,
+        "temporal": 0.024051587097346783
+      },
+      "aligned_error_change_mse": {
+        "spatial": 8.903952430277863e-19,
+        "temporal": 4.742607272116099e-06
+      }
+    },
+    {
+      "seed": 200,
+      "noise_std": 0.025,
+      "mean_mse": {
+        "spatial": 0.02443521295208484,
+        "temporal": 0.024204258690588176
+      },
+      "aligned_error_change_mse": {
+        "spatial": 0.0006232348309519391,
+        "temporal": 9.269424481317401e-05
+      }
+    },
+    {
+      "seed": 201,
+      "noise_std": 0,
+      "mean_mse": {
+        "spatial": 0.023863779148086905,
+        "temporal": 0.023823444149456918
+      },
+      "aligned_error_change_mse": {
+        "spatial": 8.898707519274674e-19,
+        "temporal": 3.350639455372099e-06
+      }
+    },
+    {
+      "seed": 201,
+      "noise_std": 0.025,
+      "mean_mse": {
+        "spatial": 0.024185258080251515,
+        "temporal": 0.02398433384951204
+      },
+      "aligned_error_change_mse": {
+        "spatial": 0.0006258179744084676,
+        "temporal": 9.659985274386902e-05
+      }
+    },
+    {
+      "seed": 202,
+      "noise_std": 0,
+      "mean_mse": {
+        "spatial": 0.020399348461069167,
+        "temporal": 0.020318772410973907
+      },
+      "aligned_error_change_mse": {
+        "spatial": 5.839230416070472e-19,
+        "temporal": 3.806528396429106e-06
+      }
+    },
+    {
+      "seed": 202,
+      "noise_std": 0.025,
+      "mean_mse": {
+        "spatial": 0.02071621746290475,
+        "temporal": 0.020480190869420767
+      },
+      "aligned_error_change_mse": {
+        "spatial": 0.0006102165246071915,
+        "temporal": 9.795031752825404e-05
+      }
+    }
+  ],
+  "limitations": [
+    "Synthetic constant-depth translation only",
+    "No camera depth transform, jitter, HDR, silhouettes or gameplay quality claim",
+    "Border crop excludes wrap seam",
+    "Noise case measures denoising as well as reconstruction"
+  ]
+}

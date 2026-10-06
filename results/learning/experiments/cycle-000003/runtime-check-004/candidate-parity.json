@@ -1,0 +1,148 @@
+{
+  "adapter": "NVIDIA GeForce RTX 2080 Ti",
+  "debug_layer": true,
+  "input_size": [
+    13,
+    9
+  ],
+  "output_size": [
+    26,
+    18
+  ],
+  "frames": 8,
+  "repeats_per_frame": 1,
+  "warmups_per_frame": 0,
+  "capture_all": true,
+  "learned": true,
+  "gpu_buffer_payload_mib": 0.0269318,
+  "offline_sequence_wall_ms": 2.8791,
+  "timings": {
+    "spatial": {
+      "p50_ms": 0.006224,
+      "p95_ms": 0.0077424,
+      "p99_ms": 0.00794848,
+      "samples_ms": [
+        0.007264,
+        0.006208,
+        0.008,
+        0.006272,
+        0.006144,
+        0.006144,
+        0.00624,
+        0.006208
+      ],
+      "steady_history_p50_ms": 0.006224,
+      "steady_history_p95_ms": 0.007568,
+      "reset_p50_ms": 0.006704
+    },
+    "temporal": {
+      "p50_ms": 0.004816,
+      "p95_ms": 0.005704,
+      "p99_ms": 0.0057488,
+      "samples_ms": [
+        0.004,
+        0.005472,
+        0.00576,
+        0.004576,
+        0.004096,
+        0.0056,
+        0.004544,
+        0.005056
+      ],
+      "steady_history_p50_ms": 0.005264,
+      "steady_history_p95_ms": 0.00572,
+      "reset_p50_ms": 0.0040479999999999995
+    },
+    "combined": {
+      "p50_ms": 0.011264,
+      "p95_ms": 0.0130544,
+      "p99_ms": 0.0136189,
+      "samples_ms": [
+        0.011264,
+        0.01168,
+        0.01376,
+        0.010848,
+        0.01024,
+        0.011744,
+        0.010784,
+        0.011264
+      ],
+      "steady_history_p50_ms": 0.011472,
+      "steady_history_p95_ms": 0.013256,
+      "reset_p50_ms": 0.010752000000000001
+    }
+  },
+  "frame_combined_p50_ms": [
+    0.011264,
+    0.01168,
+    0.01376,
+    0.010848,
+    0.01024,
+    0.011744,
+    0.010784,
+    0.011264
+  ],
+  "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+  "parity_pass": true,
+  "parity_tolerance": 5e-06,
+  "frame_parity": [
+    {
+      "frame": 0,
+      "reset": true,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 7.323220252430929e-09
+    },
+    {
+      "frame": 1,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 1.2355281242548699e-08
+    },
+    {
+      "frame": 2,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 1.3310483382156235e-08
+    },
+    {
+      "frame": 3,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 5.9010294428674115e-09
+    },
+    {
+      "frame": 4,
+      "reset": true,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 5.57466872663781e-09
+    },
+    {
+      "frame": 5,
+      "reset": false,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 6.395877605314126e-09
+    },
+    {
+      "frame": 6,
+      "reset": false,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 5.871843011817646e-09
+    },
+    {
+      "frame": 7,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 5.781629397461074e-09
+    }
+  ],
+  "sequence_sha256": "ca48671fdff67f11df0fa6a5504435ea5ddc0787ac43bb4a5326c6e04e0b8ef0",
+  "python": "3.11.15 (main, Jun 11 2026, 04:59:07) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "nvidia_before": "name, driver_version, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 2080 Ti, 617.14, 1904 MiB, 9124 MiB, 6 %",
+  "nvidia_after": "name, driver_version, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 2080 Ti, 617.14, 1901 MiB, 9127 MiB, 9 %",
+  "shader_sha256": {
+    "upscale.hlsl": "f9e3801f5e3a5d5ba6f56e71056112636c0d82236a414eb17111df61a0447dd9",
+    "temporal.hlsl": "1de82928a76aa2f9d61d07ad0534fd46a5870f2779de7c9fea4397a64099fc11"
+  }
+}

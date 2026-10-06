@@ -1,0 +1,289 @@
+{
+  "cases": [
+    {
+      "seed": 200,
+      "kind": "translation",
+      "noise_std": 0.0,
+      "scale": 2,
+      "frames": 16,
+      "interior_mse": {
+        "spatial": 0.016947248834185302,
+        "temporal": 0.016947248834185302
+      },
+      "interior_aligned_error_change_mse": {
+        "spatial": 0.0,
+        "temporal": 0.0
+      },
+      "boundary_aligned_error_change_mse": {
+        "spatial": 7.015674006349097e-05,
+        "temporal": 3.579022371316872e-05
+      },
+      "disocclusion_mse": {
+        "spatial": null,
+        "temporal": null
+      }
+    },
+    {
+      "seed": 200,
+      "kind": "translation",
+      "noise_std": 0.025,
+      "scale": 2,
+      "frames": 16,
+      "interior_mse": {
+        "spatial": 0.017186363402288407,
+        "temporal": 0.017100593249779195
+      },
+      "interior_aligned_error_change_mse": {
+        "spatial": 0.0004891917788578819,
+        "temporal": 6.615275002938384e-05
+      },
+      "boundary_aligned_error_change_mse": {
+        "spatial": 0.0005898665714388092,
+        "temporal": 0.00011369286755022282
+      },
+      "disocclusion_mse": {
+        "spatial": null,
+        "temporal": null
+      }
+    },
+    {
+      "seed": 200,
+      "kind": "silhouette",
+      "noise_std": 0.0,
+      "scale": 2,
+      "frames": 16,
+      "interior_mse": {
+        "spatial": 0.018145227222703397,
+        "temporal": 0.018129351316019893
+      },
+      "interior_aligned_error_change_mse": {
+        "spatial": 5.3386265547790876e-05,
+        "temporal": 1.6412321807971846e-05
+      },
+      "boundary_aligned_error_change_mse": {
+        "spatial": 5.246237754666557e-05,
+        "temporal": 2.5953698245591758e-05
+      },
+      "disocclusion_mse": {
+        "spatial": 0.032005725761077235,
+        "temporal": 0.032005725761077235
+      }
+    },
+    {
+      "seed": 200,
+      "kind": "silhouette",
+      "noise_std": 0.025,
+      "scale": 2,
+      "frames": 16,
+      "interior_mse": {
+        "spatial": 0.018387240590527654,
+        "temporal": 0.01825524610467255
+      },
+      "interior_aligned_error_change_mse": {
+        "spatial": 0.0005430067734171947,
+        "temporal": 8.21467522958604e-05
+      },
+      "boundary_aligned_error_change_mse": {
+        "spatial": 0.0005766765641358992,
+        "temporal": 0.00010342332000921791
+      },
+      "disocclusion_mse": {
+        "spatial": 0.03225260201309409,
+        "temporal": 0.03225260201309409
+      }
+    },
+    {
+      "seed": 201,
+      "kind": "translation",
+      "noise_std": 0.0,
+      "scale": 2,
+      "frames": 16,
+      "interior_mse": {
+        "spatial": 0.016010327846743166,
+        "temporal": 0.016010327846743166
+      },
+      "interior_aligned_error_change_mse": {
+        "spatial": 0.0,
+        "temporal": 0.0
+      },
+      "boundary_aligned_error_change_mse": {
+        "spatial": 5.4024887746588016e-05,
+        "temporal": 2.5468013457915125e-05
+      },
+      "disocclusion_mse": {
+        "spatial": null,
+        "temporal": null
+      }
+    },
+    {
+      "seed": 201,
+      "kind": "translation",
+      "noise_std": 0.025,
+      "scale": 2,
+      "frames": 16,
+      "interior_mse": {
+        "spatial": 0.016261974116787314,
+        "temporal": 0.01616673357784748
+      },
+      "interior_aligned_error_change_mse": {
+        "spatial": 0.0004900828178506344,
+        "temporal": 6.564381425656999e-05
+      },
+      "boundary_aligned_error_change_mse": {
+        "spatial": 0.0005734170010934273,
+        "temporal": 0.0001061717349026973
+      },
+      "disocclusion_mse": {
+        "spatial": null,
+        "temporal": null
+      }
+    },
+    {
+      "seed": 201,
+      "kind": "silhouette",
+      "noise_std": 0.0,
+      "scale": 2,
+      "frames": 16,
+      "interior_mse": {
+        "spatial": 0.019358459394425154,
+        "temporal": 0.01933462906163186
+      },
+      "interior_aligned_error_change_mse": {
+        "spatial": 5.4321232649575295e-05,
+        "temporal": 1.676071618324689e-05
+      },
+      "boundary_aligned_error_change_mse": {
+        "spatial": 4.98231005622074e-05,
+        "temporal": 3.1033545060428953e-05
+      },
+      "disocclusion_mse": {
+        "spatial": 0.020927391813269684,
+        "temporal": 0.020927391813269684
+      }
+    },
+    {
+      "seed": 201,
+      "kind": "silhouette",
+      "noise_std": 0.025,
+      "scale": 2,
+      "frames": 16,
+      "interior_mse": {
+        "spatial": 0.019603954977355897,
+        "temporal": 0.01945559203159064
+      },
+      "interior_aligned_error_change_mse": {
+        "spatial": 0.0005450123649400969,
+        "temporal": 8.145408646669239e-05
+      },
+      "boundary_aligned_error_change_mse": {
+        "spatial": 0.0005757481791079045,
+        "temporal": 0.00010821516577076787
+      },
+      "disocclusion_mse": {
+        "spatial": 0.021191178022750785,
+        "temporal": 0.021191178022750785
+      }
+    },
+    {
+      "seed": 202,
+      "kind": "translation",
+      "noise_std": 0.0,
+      "scale": 2,
+      "frames": 16,
+      "interior_mse": {
+        "spatial": 0.010186789382714778,
+        "temporal": 0.010186789382714778
+      },
+      "interior_aligned_error_change_mse": {
+        "spatial": 0.0,
+        "temporal": 0.0
+      },
+      "boundary_aligned_error_change_mse": {
+        "spatial": 4.8196573940610204e-05,
+        "temporal": 2.2939859627513214e-05
+      },
+      "disocclusion_mse": {
+        "spatial": null,
+        "temporal": null
+      }
+    },
+    {
+      "seed": 202,
+      "kind": "translation",
+      "noise_std": 0.025,
+      "scale": 2,
+      "frames": 16,
+      "interior_mse": {
+        "spatial": 0.010432343930006027,
+        "temporal": 0.01032713073072955
+      },
+      "interior_aligned_error_change_mse": {
+        "spatial": 0.0004903281534401079,
+        "temporal": 7.192160361834491e-05
+      },
+      "boundary_aligned_error_change_mse": {
+        "spatial": 0.0005611765276019772,
+        "temporal": 0.00011088824248872697
+      },
+      "disocclusion_mse": {
+        "spatial": null,
+        "temporal": null
+      }
+    },
+    {
+      "seed": 202,
+      "kind": "silhouette",
+      "noise_std": 0.0,
+      "scale": 2,
+      "frames": 16,
+      "interior_mse": {
+        "spatial": 0.01442934846272692,
+        "temporal": 0.014419823361095041
+      },
+      "interior_aligned_error_change_mse": {
+        "spatial": 3.298733196667551e-05,
+        "temporal": 1.3714803526454488e-05
+      },
+      "boundary_aligned_error_change_mse": {
+        "spatial": 4.20791451081944e-05,
+        "temporal": 2.907123200917757e-05
+      },
+      "disocclusion_mse": {
+        "spatial": 0.015720014593430927,
+        "temporal": 0.015720014593430927
+      }
+    },
+    {
+      "seed": 202,
+      "kind": "silhouette",
+      "noise_std": 0.025,
+      "scale": 2,
+      "frames": 16,
+      "interior_mse": {
+        "spatial": 0.01467475004028529,
+        "temporal": 0.014535693335346878
+      },
+      "interior_aligned_error_change_mse": {
+        "spatial": 0.000522501498926431,
+        "temporal": 8.254537387983874e-05
+      },
+      "boundary_aligned_error_change_mse": {
+        "spatial": 0.0005596437491476536,
+        "temporal": 0.00011696627771016211
+      },
+      "disocclusion_mse": {
+        "spatial": 0.01571274202849184,
+        "temporal": 0.01571274202849184
+      }
+    }
+  ],
+  "total_frames": 192,
+  "contract": "Original procedural display-RGB assets; 2x scale; unjittered; comparable linear depths; no rolling/wrapped image truth",
+  "diagnosis": "Separate history-safe interior, boundary region, and newly revealed surfaces. The previous wrapped test used an insufficient crop to exclude boundary-error propagation.",
+  "limitations": [
+    "Custom aligned-error diagnostic, not a perceptual score",
+    "Fixed-camera synthetic translation/silhouette only",
+    "No HDR, jitter, exposure or moving-camera validation",
+    "Boundary and silhouette regressions remain visible and must not be hidden by interior scores"
+  ]
+}

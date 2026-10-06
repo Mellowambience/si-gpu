@@ -1,0 +1,3 @@
+numpy==2.4.6
+pillow==12.3.0
+si-gpu @ file:///C:/Users/nator/Documents/Codex/2026-10-05/c-users-nator-downloads-si-ware/outputs/si-gpu-learning

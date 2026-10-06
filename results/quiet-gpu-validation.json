@@ -1,0 +1,85 @@
+{
+  "model": "cycle-000003-candidate-03",
+  "three_consecutive_runs_pass": true,
+  "input_conditions": "Game exited; preflight snapshots show 4-6% GPU utilization and about 9 GiB free",
+  "profiles": {
+    "1080p": {
+      "p95_min_ms": 0.7250431999999999,
+      "p95_max_ms": 0.839728
+    },
+    "1440p": {
+      "p95_min_ms": 1.0778645,
+      "p95_max_ms": 1.2359544999999998
+    }
+  },
+  "accepted_runtime": "cycle-000003-candidate-03",
+  "scope": "Offline fixed-input learned spatial + temporal passes; copies, compilation, CPU waits and engine rendering excluded",
+  "checks": [
+    {
+      "at": "2026-10-06T01:36:14.678088+00:00",
+      "evidence": {
+        "pass": true,
+        "profiles": {
+          "1080p": {
+            "p95_ms": 0.7412575999999997,
+            "gpu_buffer_payload_mib": 118.652,
+            "parity_pass": true
+          },
+          "1440p": {
+            "p95_ms": 1.2359544999999998,
+            "gpu_buffer_payload_mib": 210.938,
+            "parity_pass": true
+          }
+        },
+        "parity_frames": 8,
+        "nvidia_before": "name, driver_version, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 2080 Ti, 617.14, 1770 MiB, 9258 MiB, 6 %",
+        "nvidia_after": "name, driver_version, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 2080 Ti, 617.14, 1974 MiB, 9054 MiB, 6 %",
+        "scope": "Repeated fixed inputs; GPU payload is not peak memory; engine integration remains required"
+      }
+    },
+    {
+      "at": "2026-10-06T01:36:37.999686+00:00",
+      "evidence": {
+        "pass": true,
+        "profiles": {
+          "1080p": {
+            "p95_ms": 0.7250431999999999,
+            "gpu_buffer_payload_mib": 118.652,
+            "parity_pass": true
+          },
+          "1440p": {
+            "p95_ms": 1.0778645,
+            "gpu_buffer_payload_mib": 210.938,
+            "parity_pass": true
+          }
+        },
+        "parity_frames": 8,
+        "nvidia_before": "name, driver_version, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 2080 Ti, 617.14, 1905 MiB, 9123 MiB, 6 %",
+        "nvidia_after": "name, driver_version, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 2080 Ti, 617.14, 1964 MiB, 9064 MiB, 4 %",
+        "scope": "Repeated fixed inputs; GPU payload is not peak memory; engine integration remains required"
+      }
+    },
+    {
+      "at": "2026-10-06T01:36:46.650696+00:00",
+      "evidence": {
+        "pass": true,
+        "profiles": {
+          "1080p": {
+            "p95_ms": 0.839728,
+            "gpu_buffer_payload_mib": 118.652,
+            "parity_pass": true
+          },
+          "1440p": {
+            "p95_ms": 1.17418,
+            "gpu_buffer_payload_mib": 210.938,
+            "parity_pass": true
+          }
+        },
+        "parity_frames": 8,
+        "nvidia_before": "name, driver_version, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 2080 Ti, 617.14, 1958 MiB, 9070 MiB, 6 %",
+        "nvidia_after": "name, driver_version, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 2080 Ti, 617.14, 1934 MiB, 9094 MiB, 4 %",
+        "scope": "Repeated fixed inputs; GPU payload is not peak memory; engine integration remains required"
+      }
+    }
+  ]
+}

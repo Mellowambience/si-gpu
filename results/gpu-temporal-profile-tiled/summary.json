@@ -1,0 +1,102 @@
+{
+  "sequences": 2,
+  "parity_frames": 2,
+  "all_parity_pass": true,
+  "debug_requested": false,
+  "results": [
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": false,
+      "input_size": [
+        960,
+        540
+      ],
+      "output_size": [
+        1920,
+        1080
+      ],
+      "frames": 2,
+      "repeats_per_frame": 1000,
+      "warmups_per_frame": 100,
+      "capture_all": false,
+      "learned": false,
+      "gpu_buffer_payload_mib": 118.652,
+      "offline_sequence_wall_ms": 10787.1,
+      "frame_combined_p50_ms": [
+        0.282096,
+        0.72096
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 1.7881393432617188e-07,
+          "mean_abs_error": 1.1407150779518815e-08
+        }
+      ],
+      "sequence_sha256": "f12bc404fbe8eadeb3a40a99ddd485588b0236e134bbfd6d43bff4714e35d9ab",
+      "python": "3.11.15 (main, Jun 11 2026, 04:59:07) [MSC v.1944 64 bit (AMD64)]",
+      "numpy": "2.4.6",
+      "platform": "Windows-10-10.0.26300-SP0",
+      "nvidia_before": "name, driver_version, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 2080 Ti, 617.14, 9553 MiB, 1475 MiB, 87 %",
+      "nvidia_after": "name, driver_version, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 2080 Ti, 617.14, 9520 MiB, 1508 MiB, 99 %",
+      "shader_sha256": {
+        "upscale.hlsl": "f9e3801f5e3a5d5ba6f56e71056112636c0d82236a414eb17111df61a0447dd9",
+        "temporal.hlsl": "1de82928a76aa2f9d61d07ad0534fd46a5870f2779de7c9fea4397a64099fc11"
+      }
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": false,
+      "input_size": [
+        1280,
+        720
+      ],
+      "output_size": [
+        2560,
+        1440
+      ],
+      "frames": 2,
+      "repeats_per_frame": 1000,
+      "warmups_per_frame": 100,
+      "capture_all": false,
+      "learned": false,
+      "gpu_buffer_payload_mib": 210.938,
+      "offline_sequence_wall_ms": 20736,
+      "frame_combined_p50_ms": [
+        0.832944,
+        1.4293
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 1.4901161193847656e-07,
+          "mean_abs_error": 1.1435863811470881e-08
+        }
+      ],
+      "sequence_sha256": "e6f22be868958dc03e0c672cf9031c261a33c55ad7e2db6bc5d8bdb2b483ceda",
+      "python": "3.11.15 (main, Jun 11 2026, 04:59:07) [MSC v.1944 64 bit (AMD64)]",
+      "numpy": "2.4.6",
+      "platform": "Windows-10-10.0.26300-SP0",
+      "nvidia_before": "name, driver_version, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 2080 Ti, 617.14, 9467 MiB, 1561 MiB, 85 %",
+      "nvidia_after": "name, driver_version, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 2080 Ti, 617.14, 9410 MiB, 1618 MiB, 99 %",
+      "shader_sha256": {
+        "upscale.hlsl": "f9e3801f5e3a5d5ba6f56e71056112636c0d82236a414eb17111df61a0447dd9",
+        "temporal.hlsl": "1de82928a76aa2f9d61d07ad0534fd46a5870f2779de7c9fea4397a64099fc11"
+      }
+    }
+  ],
+  "limitations": [
+    "Unjittered display RGB; fixed dimensions per sequence",
+    "No camera transform, exposure or HDR",
+    "Offline upload/readback and CPU fence per frame; not an engine hot path",
+    "Profile repeats fixed current/prior inputs; steady history and reset measurements separated"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "implementation": "CPU NumPy learned linear residual filter; not neural inference",
+  "scale": 3,
+  "input_size": [
+    64,
+    64
+  ],
+  "output_size": [
+    192,
+    192
+  ],
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "evaluation_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "timing_scope": "CPU inference incl resize; 30 samples after warmup; NOT GPU or end-to-end latency",
+  "held_out_mean_gain_db": 0.3978344390362653,
+  "limitations": [
+    "Synthetic static evaluation only",
+    "No gameplay generalization demonstrated",
+    "No GPU execution",
+    "Temporal metrics are separate and limited to synthetic translation"
+  ],
+  "frames": [
+    {
+      "seed": 100,
+      "baselines_psnr_db": {
+        "bicubic": 17.236728072665684,
+        "lanczos": 17.29909079854296
+      },
+      "cpu_p95_ms": 4.315285002667223,
+      "bilinear_psnr_db": 17.065128279525688,
+      "learned_psnr_db": 17.472763891062776,
+      "cpu_p50_ms": 2.913500000431668
+    },
+    {
+      "seed": 101,
+      "baselines_psnr_db": {
+        "bicubic": 16.6663768429883,
+        "lanczos": 16.740717629554748
+      },
+      "cpu_p95_ms": 4.268314998262211,
+      "bilinear_psnr_db": 16.480971996659942,
+      "learned_psnr_db": 16.88757951932363,
+      "cpu_p50_ms": 2.996849998453399
+    },
+    {
+      "seed": 102,
+      "baselines_psnr_db": {
+        "bicubic": 17.227469748448144,
+        "lanczos": 17.298362998855602
+      },
+      "cpu_p95_ms": 4.3042299988883315,
+      "bilinear_psnr_db": 17.057882694331916,
+      "learned_psnr_db": 17.458609469174583,
+      "cpu_p50_ms": 3.5143000022799242
+    },
+    {
+      "seed": 103,
+      "baselines_psnr_db": {
+        "bicubic": 16.466331371793935,
+        "lanczos": 16.53494511128587
+      },
+      "cpu_p95_ms": 4.626264999751583,
+      "bilinear_psnr_db": 16.283709261255616,
+      "learned_psnr_db": 16.67329264484159,
+      "cpu_p50_ms": 3.312450000521494
+    },
+    {
+      "seed": 104,
+      "baselines_psnr_db": {
+        "bicubic": 16.822194180894186,
+        "lanczos": 16.911145267691676
+      },
+      "cpu_p95_ms": 4.713675001403317,
+      "bilinear_psnr_db": 16.634354022864212,
+      "learned_psnr_db": 17.05541737181379,
+      "cpu_p50_ms": 3.1218500007526018
+    },
+    {
+      "seed": 105,
+      "baselines_psnr_db": {
+        "bicubic": 18.62340654537128,
+        "lanczos": 18.66265129430999
+      },
+      "cpu_p95_ms": 4.328069995244732,
+      "bilinear_psnr_db": 18.45380994070806,
+      "learned_psnr_db": 18.815199933346655,
+      "cpu_p50_ms": 2.970000001369044
+    }
+  ]
+}

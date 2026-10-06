@@ -1,0 +1,16 @@
+{
+  "seed": 100,
+  "input_size": [
+    64,
+    64
+  ],
+  "output_size": [
+    128,
+    128
+  ],
+  "gpu_output_psnr_db": {
+    "bilinear": 17.8094488186677,
+    "learned": 18.613080935230222
+  },
+  "scope": "Synthetic 2x spatial example; not gameplay or temporal quality"
+}

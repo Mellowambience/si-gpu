@@ -1,0 +1,34 @@
+[
+  {
+    "input": "00000.npz",
+    "output": "00000.png"
+  },
+  {
+    "input": "00001.npz",
+    "output": "00001.png"
+  },
+  {
+    "input": "00002.npz",
+    "output": "00002.png"
+  },
+  {
+    "input": "00003.npz",
+    "output": "00003.png"
+  },
+  {
+    "input": "00004.npz",
+    "output": "00004.png"
+  },
+  {
+    "input": "00005.npz",
+    "output": "00005.png"
+  },
+  {
+    "input": "00006.npz",
+    "output": "00006.png"
+  },
+  {
+    "input": "00007.npz",
+    "output": "00007.png"
+  }
+]

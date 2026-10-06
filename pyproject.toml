@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "si-gpu"
+version = "0.4.0"
+description = "SI-GPU reconstruction and bounded continual-learning laboratory"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24,<3", "Pillow>=10,<13"]
+
+[project.scripts]
+siware = "siware.__main__:main"
+si-gpu-benchmark = "siware.gpu_benchmark:main"
+si-gpu-motion = "siware.motion_lab:main"
+si-gpu-temporal = "siware.gpu_temporal:main"
+si-gpu-learn = "siware.learning:main"
+
+[tool.setuptools.packages.find]
+include = ["siware*"]

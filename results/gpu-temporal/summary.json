@@ -1,0 +1,1931 @@
+{
+  "sequences": 15,
+  "parity_frames": 216,
+  "all_parity_pass": true,
+  "debug_requested": true,
+  "results": [
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        13,
+        9
+      ],
+      "output_size": [
+        26,
+        18
+      ],
+      "frames": 8,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": true,
+      "gpu_buffer_payload_mib": 0.0269318,
+      "offline_sequence_wall_ms": 36.4853,
+      "frame_combined_p50_ms": [
+        0.010624,
+        0.010848,
+        0.01392,
+        0.013504,
+        0.008768,
+        0.009632,
+        0.010016,
+        0.00976
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 6.4316978409806325e-09
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.2466720988868474e-08
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.3439834134487683e-08
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 5.094414223805188e-09
+        },
+        {
+          "frame": 4,
+          "reset": true,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 5.2721880194894766e-09
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 6.674478303381193e-09
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 5.691415783104503e-09
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 6.787245432349209e-09
+        }
+      ],
+      "sequence_sha256": "ca48671fdff67f11df0fa6a5504435ea5ddc0787ac43bb4a5326c6e04e0b8ef0"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        13,
+        9
+      ],
+      "output_size": [
+        39,
+        27
+      ],
+      "frames": 8,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": true,
+      "gpu_buffer_payload_mib": 0.0539017,
+      "offline_sequence_wall_ms": 3.0216,
+      "frame_combined_p50_ms": [
+        0.00976,
+        0.008896,
+        0.01024,
+        0.01024,
+        0.009472,
+        0.009792,
+        0.009824,
+        0.00912
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 5.960464477539062e-07,
+          "mean_abs_error": 6.645321093401435e-08
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 5.960464477539062e-07,
+          "mean_abs_error": 6.073673830542248e-08
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 4.470348358154297e-07,
+          "mean_abs_error": 6.239596217483268e-08
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 5.364418029785156e-07,
+          "mean_abs_error": 6.709178279606931e-08
+        },
+        {
+          "frame": 4,
+          "reset": true,
+          "max_abs_error": 5.960464477539062e-07,
+          "mean_abs_error": 6.199618951541197e-08
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 5.960464477539062e-07,
+          "mean_abs_error": 6.997449020218482e-08
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 6.258487701416016e-07,
+          "mean_abs_error": 6.59585097650961e-08
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 6.258487701416016e-07,
+          "mean_abs_error": 7.030202908708816e-08
+        }
+      ],
+      "sequence_sha256": "22baac4ac034c9e30e916127d5ea3440d4950cad62451f9a531cba04a8924b68"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        13,
+        9
+      ],
+      "output_size": [
+        52,
+        36
+      ],
+      "frames": 8,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": true,
+      "gpu_buffer_payload_mib": 0.0916595,
+      "offline_sequence_wall_ms": 82.4303,
+      "frame_combined_p50_ms": [
+        0.011136,
+        0.013696,
+        0.012608,
+        0.012832,
+        0.009056,
+        0.01216,
+        0.00944,
+        0.008544
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 5.667867508662994e-09
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2206983868168209e-08
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.1765243890238253e-08
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 5.6449822594117904e-09
+        },
+        {
+          "frame": 4,
+          "reset": true,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 5.314972906234061e-09
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 5.690752313824987e-09
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 5.335868191735926e-09
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 5.720602658243479e-09
+        }
+      ],
+      "sequence_sha256": "0f2620d27293ee92cefbf95150b44a8c5c49caa22ac8c4b6d3f19b3fb83bad6a"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        96,
+        48
+      ],
+      "output_size": [
+        192,
+        96
+      ],
+      "frames": 16,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": false,
+      "gpu_buffer_payload_mib": 1.05484,
+      "offline_sequence_wall_ms": 147.306,
+      "frame_combined_p50_ms": [
+        0.01296,
+        0.014144,
+        0.016288,
+        0.013696,
+        0.016096,
+        0.016064,
+        0.01552,
+        0.016064,
+        0.016224,
+        0.015264,
+        0.014784,
+        0.013408,
+        0.013344,
+        0.0128,
+        0.014432,
+        0.016544
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 2.9802322387695312e-08,
+          "mean_abs_error": 1.1871937877216965e-09
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.2502520130297512e-09
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.2894614265235305e-09
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.3345992089242031e-09
+        },
+        {
+          "frame": 4,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.4033166850779821e-09
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.5024852473288774e-09
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.5519348028902868e-09
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.61337621040758e-09
+        },
+        {
+          "frame": 8,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.67225755465239e-09
+        },
+        {
+          "frame": 9,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.768731383577915e-09
+        },
+        {
+          "frame": 10,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.7715608979784747e-09
+        },
+        {
+          "frame": 11,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.7906940374956548e-09
+        },
+        {
+          "frame": 12,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.9397163875112255e-09
+        },
+        {
+          "frame": 13,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 2.0126107447282493e-09
+        },
+        {
+          "frame": 14,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 2.006412591626372e-09
+        },
+        {
+          "frame": 15,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.9797341543892344e-09
+        }
+      ],
+      "sequence_sha256": "cfa9f186e504d98c0a7604f1533dcd7f8aefd4ff524b4ad0e7fc04159bfb7666"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        96,
+        48
+      ],
+      "output_size": [
+        192,
+        96
+      ],
+      "frames": 16,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": false,
+      "gpu_buffer_payload_mib": 1.05484,
+      "offline_sequence_wall_ms": 119.829,
+      "frame_combined_p50_ms": [
+        0.011808,
+        0.013856,
+        0.014816,
+        0.014496,
+        0.016256,
+        0.01488,
+        0.014464,
+        0.014752,
+        0.01664,
+        0.012864,
+        0.013536,
+        0.013472,
+        0.013024,
+        0.01344,
+        0.01408,
+        0.015968
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 7.48210993162246e-10
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 6.327725010635277e-09
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 8.505998572161388e-09
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.337748352322706e-09
+        },
+        {
+          "frame": 4,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.725732219578731e-09
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.77996528206404e-09
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.714279158856698e-09
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.836758074754925e-09
+        },
+        {
+          "frame": 8,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.82537251559279e-09
+        },
+        {
+          "frame": 9,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.799906663943148e-09
+        },
+        {
+          "frame": 10,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.780436904804901e-09
+        },
+        {
+          "frame": 11,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.780369403245004e-09
+        },
+        {
+          "frame": 12,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.96226834359959e-09
+        },
+        {
+          "frame": 13,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.858855065658645e-09
+        },
+        {
+          "frame": 14,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.854476346049523e-09
+        },
+        {
+          "frame": 15,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.879369322618459e-09
+        }
+      ],
+      "sequence_sha256": "2ed017cd557b5ead0ebdec126f2ae4179dbe5c9952a1076a97f9c53a944078c7"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        96,
+        48
+      ],
+      "output_size": [
+        192,
+        96
+      ],
+      "frames": 16,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": false,
+      "gpu_buffer_payload_mib": 1.05484,
+      "offline_sequence_wall_ms": 222.092,
+      "frame_combined_p50_ms": [
+        0.012704,
+        0.014944,
+        0.014656,
+        0.013728,
+        0.013376,
+        0.013504,
+        0.014528,
+        0.016352,
+        0.016448,
+        0.016224,
+        0.015904,
+        0.017792,
+        0.017184,
+        0.01536,
+        0.016032,
+        0.014752
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.1403042954327702e-09
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.1917749009882073e-09
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.2661514059431056e-09
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.3216642225089004e-09
+        },
+        {
+          "frame": 4,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3557533984354109e-09
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3488816730244935e-09
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.410457861616976e-09
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.4550567417614957e-09
+        },
+        {
+          "frame": 8,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.434172114400667e-09
+        },
+        {
+          "frame": 9,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.4453555019500186e-09
+        },
+        {
+          "frame": 10,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.4628717126541346e-09
+        },
+        {
+          "frame": 11,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.4553263039118747e-09
+        },
+        {
+          "frame": 12,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.4481850163505783e-09
+        },
+        {
+          "frame": 13,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.4908976275762598e-09
+        },
+        {
+          "frame": 14,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.4733814168721437e-09
+        },
+        {
+          "frame": 15,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.4712255858029266e-09
+        }
+      ],
+      "sequence_sha256": "ef8844a5e039e363cdc9b82f3da8a21cf96c79eb1347c904d750639c09f5c022"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        96,
+        48
+      ],
+      "output_size": [
+        192,
+        96
+      ],
+      "frames": 16,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": false,
+      "gpu_buffer_payload_mib": 1.05484,
+      "offline_sequence_wall_ms": 189.809,
+      "frame_combined_p50_ms": [
+        0.013152,
+        0.01648,
+        0.014944,
+        0.015904,
+        0.016032,
+        0.013376,
+        0.013312,
+        0.015072,
+        0.015584,
+        0.016704,
+        0.013472,
+        0.013344,
+        0.013312,
+        0.016864,
+        0.014912,
+        0.015968
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 6.996372370338122e-10
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 6.597238755290391e-09
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 8.911094084851356e-09
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 9.855419591531245e-09
+        },
+        {
+          "frame": 4,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.0316701271051443e-08
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.043331909755807e-08
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.0614678913611897e-08
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.0629702451581124e-08
+        },
+        {
+          "frame": 8,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.056799181498036e-08
+        },
+        {
+          "frame": 9,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.0552429152710374e-08
+        },
+        {
+          "frame": 10,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.068501287448953e-08
+        },
+        {
+          "frame": 11,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.084744205570587e-08
+        },
+        {
+          "frame": 12,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.0700373920258244e-08
+        },
+        {
+          "frame": 13,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.0748205880872774e-08
+        },
+        {
+          "frame": 14,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.071714894607112e-08
+        },
+        {
+          "frame": 15,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.0576951758878295e-08
+        }
+      ],
+      "sequence_sha256": "706fdb363bd97ae8aa01828f452bc30cafeb97be4af8ee0695e4e63b38dcf205"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        96,
+        48
+      ],
+      "output_size": [
+        192,
+        96
+      ],
+      "frames": 16,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": false,
+      "gpu_buffer_payload_mib": 1.05484,
+      "offline_sequence_wall_ms": 76.5773,
+      "frame_combined_p50_ms": [
+        0.013248,
+        0.014304,
+        0.015776,
+        0.016192,
+        0.013824,
+        0.013504,
+        0.012832,
+        0.014304,
+        0.015936,
+        0.012736,
+        0.013632,
+        0.015776,
+        0.013408,
+        0.013984,
+        0.014816,
+        0.013632
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.0462557487045387e-09
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.092336776586933e-09
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.134779936684538e-09
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.1752019357658128e-09
+        },
+        {
+          "frame": 4,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2454014486351639e-09
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2703282870063504e-09
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.306034391745925e-09
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3735390602676034e-09
+        },
+        {
+          "frame": 8,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3963101785918752e-09
+        },
+        {
+          "frame": 9,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.416251671493285e-09
+        },
+        {
+          "frame": 10,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.4616590160443366e-09
+        },
+        {
+          "frame": 11,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.5534169506281614e-09
+        },
+        {
+          "frame": 12,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.5292984656412045e-09
+        },
+        {
+          "frame": 13,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.5659478158625006e-09
+        },
+        {
+          "frame": 14,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.6703712857335518e-09
+        },
+        {
+          "frame": 15,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.7021698495156556e-09
+        }
+      ],
+      "sequence_sha256": "2d9e56b3ab58f72a27f967fee3f6c714b72469c968e9f94457efdcb332678872"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        96,
+        48
+      ],
+      "output_size": [
+        192,
+        96
+      ],
+      "frames": 16,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": false,
+      "gpu_buffer_payload_mib": 1.05484,
+      "offline_sequence_wall_ms": 100.118,
+      "frame_combined_p50_ms": [
+        0.01296,
+        0.015904,
+        0.015776,
+        0.013536,
+        0.014016,
+        0.01568,
+        0.015584,
+        0.014688,
+        0.015136,
+        0.016704,
+        0.015296,
+        0.012928,
+        0.012288,
+        0.013728,
+        0.012992,
+        0.013568
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 7.353769815310329e-10
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 8.515565141919978e-09
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.1125275811707525e-08
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2149097727842673e-08
+        },
+        {
+          "frame": 4,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2813904604058735e-08
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2991558939745573e-08
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2957133144197996e-08
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3037236179513911e-08
+        },
+        {
+          "frame": 8,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.30409416598809e-08
+        },
+        {
+          "frame": 9,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3064656023686894e-08
+        },
+        {
+          "frame": 10,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3020528655260932e-08
+        },
+        {
+          "frame": 11,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3041547397563136e-08
+        },
+        {
+          "frame": 12,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2922841463591794e-08
+        },
+        {
+          "frame": 13,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3157693601328901e-08
+        },
+        {
+          "frame": 14,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3245476715439963e-08
+        },
+        {
+          "frame": 15,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3479789728876312e-08
+        }
+      ],
+      "sequence_sha256": "b24a2177690ba484e16f696fcc54f6026b5351a9615c093b777ba6bdfdb1c1bd"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        96,
+        48
+      ],
+      "output_size": [
+        192,
+        96
+      ],
+      "frames": 16,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": false,
+      "gpu_buffer_payload_mib": 1.05484,
+      "offline_sequence_wall_ms": 125.103,
+      "frame_combined_p50_ms": [
+        0.013664,
+        0.014912,
+        0.012608,
+        0.013504,
+        0.015904,
+        0.016256,
+        0.01328,
+        0.012512,
+        0.015712,
+        0.016288,
+        0.013856,
+        0.016416,
+        0.014976,
+        0.016544,
+        0.01616,
+        0.01248
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.1314114090055227e-09
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.178705133497715e-09
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.2183186681724578e-09
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.2354306466733078e-09
+        },
+        {
+          "frame": 4,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.2766611101611147e-09
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.3219336736369769e-09
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3417404964854995e-09
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3596609393928816e-09
+        },
+        {
+          "frame": 8,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.3801413345504443e-09
+        },
+        {
+          "frame": 9,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.4329594177908689e-09
+        },
+        {
+          "frame": 10,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.4233928480322788e-09
+        },
+        {
+          "frame": 11,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.4670485937173794e-09
+        },
+        {
+          "frame": 12,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.5158244659474462e-09
+        },
+        {
+          "frame": 13,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.5173066136853208e-09
+        },
+        {
+          "frame": 14,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.5760532878772437e-09
+        },
+        {
+          "frame": 15,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.6156668225519866e-09
+        }
+      ],
+      "sequence_sha256": "c81af289e801300fca2ec62c73af5873120b05cc777e0951cf016c36def281f0"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        96,
+        48
+      ],
+      "output_size": [
+        192,
+        96
+      ],
+      "frames": 16,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": false,
+      "gpu_buffer_payload_mib": 1.05484,
+      "offline_sequence_wall_ms": 165.944,
+      "frame_combined_p50_ms": [
+        0.01248,
+        0.013696,
+        0.016192,
+        0.016896,
+        0.016512,
+        0.016576,
+        0.016288,
+        0.013664,
+        0.012864,
+        0.014176,
+        0.016864,
+        0.013024,
+        0.014016,
+        0.016672,
+        0.01312,
+        0.01296
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 7.199155716008931e-10
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 8.476962243264552e-09
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.1372524255648386e-08
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.254489578883522e-08
+        },
+        {
+          "frame": 4,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2891245404489382e-08
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3042289026543585e-08
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3074895832687616e-08
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3316484803738149e-08
+        },
+        {
+          "frame": 8,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3302134505011054e-08
+        },
+        {
+          "frame": 9,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.316854003619028e-08
+        },
+        {
+          "frame": 10,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3282395627811638e-08
+        },
+        {
+          "frame": 11,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3320190284105138e-08
+        },
+        {
+          "frame": 12,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.333413557347285e-08
+        },
+        {
+          "frame": 13,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3301057144587958e-08
+        },
+        {
+          "frame": 14,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3243321106415351e-08
+        },
+        {
+          "frame": 15,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.320188847131476e-08
+        }
+      ],
+      "sequence_sha256": "9ee28bb30e929eaad20ab6d832d93998f28aa24fd2b08b6dea99b0734aadeb57"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        96,
+        48
+      ],
+      "output_size": [
+        192,
+        96
+      ],
+      "frames": 16,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": false,
+      "gpu_buffer_payload_mib": 1.05484,
+      "offline_sequence_wall_ms": 162.624,
+      "frame_combined_p50_ms": [
+        0.012064,
+        0.014592,
+        0.016576,
+        0.013536,
+        0.013824,
+        0.013728,
+        0.015936,
+        0.016288,
+        0.013536,
+        0.01344,
+        0.015968,
+        0.016384,
+        0.015584,
+        0.014368,
+        0.016416,
+        0.013888
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 7.971215909563512e-10
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 8.456279565471903e-10
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 8.941343221380293e-10
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 9.272803636051208e-10
+        },
+        {
+          "frame": 4,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 9.464135031223009e-10
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.0145918549753219e-09
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.0299522346102208e-09
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.0423483187693705e-09
+        },
+        {
+          "frame": 8,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.1016338952174465e-09
+        },
+        {
+          "frame": 9,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.1191501059215625e-09
+        },
+        {
+          "frame": 10,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.1487928386344493e-09
+        },
+        {
+          "frame": 11,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.2043057662225465e-09
+        },
+        {
+          "frame": 12,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.2635913426706225e-09
+        },
+        {
+          "frame": 13,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.3145230459699064e-09
+        },
+        {
+          "frame": 14,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.3393152142882059e-09
+        },
+        {
+          "frame": 15,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.3808150178817868e-09
+        }
+      ],
+      "sequence_sha256": "3a5c83f3405852f7dd887d8304829e75bc5f724f32705525a58ff2d6455b2920"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        96,
+        48
+      ],
+      "output_size": [
+        192,
+        96
+      ],
+      "frames": 16,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": false,
+      "gpu_buffer_payload_mib": 1.05484,
+      "offline_sequence_wall_ms": 165.004,
+      "frame_combined_p50_ms": [
+        0.013312,
+        0.016448,
+        0.016224,
+        0.016384,
+        0.015584,
+        0.014272,
+        0.014464,
+        0.01664,
+        0.015552,
+        0.01648,
+        0.013728,
+        0.013888,
+        0.015936,
+        0.014752,
+        0.013376,
+        0.015808
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 4.725330127186567e-10
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 8.201351597847406e-09
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.1045038661450235e-08
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.1994012005800414e-08
+        },
+        {
+          "frame": 4,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2268476901056147e-08
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2557224593479077e-08
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2640628987981017e-08
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2614354893969448e-08
+        },
+        {
+          "frame": 8,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2540382066106304e-08
+        },
+        {
+          "frame": 9,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2710019703376929e-08
+        },
+        {
+          "frame": 10,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2582152209006381e-08
+        },
+        {
+          "frame": 11,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2540517069226098e-08
+        },
+        {
+          "frame": 12,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.243986602617042e-08
+        },
+        {
+          "frame": 13,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2384892222883082e-08
+        },
+        {
+          "frame": 14,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2259988579899073e-08
+        },
+        {
+          "frame": 15,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2278178473934531e-08
+        }
+      ],
+      "sequence_sha256": "62a785796ebac6d1329a686c4ea8a02ba8c7f7444fcc41ace8f24b194c237643"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        96,
+        48
+      ],
+      "output_size": [
+        192,
+        96
+      ],
+      "frames": 16,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": false,
+      "gpu_buffer_payload_mib": 1.05484,
+      "offline_sequence_wall_ms": 100.493,
+      "frame_combined_p50_ms": [
+        0.012384,
+        0.01328,
+        0.013536,
+        0.01344,
+        0.013344,
+        0.016256,
+        0.01632,
+        0.015744,
+        0.016288,
+        0.016416,
+        0.014432,
+        0.01392,
+        0.013472,
+        0.01344,
+        0.015808,
+        0.015008
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 8.043975485705346e-10
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 8.879363355696057e-10
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 9.496472497261266e-10
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.0447736009666642e-09
+        },
+        {
+          "frame": 4,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.0620203605427037e-09
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.04046193882823e-09
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.1331630078714738e-09
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.1504097674475133e-09
+        },
+        {
+          "frame": 8,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.1725070914181401e-09
+        },
+        {
+          "frame": 9,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.1927180354476263e-09
+        },
+        {
+          "frame": 10,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2299062879250755e-09
+        },
+        {
+          "frame": 11,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2786821601551424e-09
+        },
+        {
+          "frame": 12,
+          "reset": false,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 1.239338076608476e-09
+        },
+        {
+          "frame": 13,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3018573996603777e-09
+        },
+        {
+          "frame": 14,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.365724200397267e-09
+        },
+        {
+          "frame": 15,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3554839473073343e-09
+        }
+      ],
+      "sequence_sha256": "89f558afb71856ccdf8b6534074271857fc8557cb98d2803a8541bd807a8f993"
+    },
+    {
+      "adapter": "NVIDIA GeForce RTX 2080 Ti",
+      "debug_layer": true,
+      "input_size": [
+        96,
+        48
+      ],
+      "output_size": [
+        192,
+        96
+      ],
+      "frames": 16,
+      "repeats_per_frame": 1,
+      "warmups_per_frame": 0,
+      "capture_all": true,
+      "learned": false,
+      "gpu_buffer_payload_mib": 1.05484,
+      "offline_sequence_wall_ms": 12.5919,
+      "frame_combined_p50_ms": [
+        0.010816,
+        0.014464,
+        0.013664,
+        0.013568,
+        0.014048,
+        0.012992,
+        0.014048,
+        0.013504,
+        0.013184,
+        0.0136,
+        0.014176,
+        0.013664,
+        0.012864,
+        0.012096,
+        0.012288,
+        0.012384
+      ],
+      "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+      "parity_pass": true,
+      "parity_tolerance": 5e-06,
+      "frame_parity": [
+        {
+          "frame": 0,
+          "reset": true,
+          "max_abs_error": 5.960464477539063e-08,
+          "mean_abs_error": 4.881628434816321e-10
+        },
+        {
+          "frame": 1,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 8.399823947513596e-09
+        },
+        {
+          "frame": 2,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.1021459300764036e-08
+        },
+        {
+          "frame": 3,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2025406448401554e-08
+        },
+        {
+          "frame": 4,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2446333741422677e-08
+        },
+        {
+          "frame": 5,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3091199235759632e-08
+        },
+        {
+          "frame": 6,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.30561668143514e-08
+        },
+        {
+          "frame": 7,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2902967583272584e-08
+        },
+        {
+          "frame": 8,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2908087931862156e-08
+        },
+        {
+          "frame": 9,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3002810383966334e-08
+        },
+        {
+          "frame": 10,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3147520405709656e-08
+        },
+        {
+          "frame": 11,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.2966699713956586e-08
+        },
+        {
+          "frame": 12,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3094837214566724e-08
+        },
+        {
+          "frame": 13,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.304929497791818e-08
+        },
+        {
+          "frame": 14,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.3013993438448779e-08
+        },
+        {
+          "frame": 15,
+          "reset": false,
+          "max_abs_error": 1.1920928955078125e-07,
+          "mean_abs_error": 1.292075335612708e-08
+        }
+      ],
+      "sequence_sha256": "69d5aa81f955846535a6b404d67c7c3a287d3715eeacbc0610e1c6d146a0bea7"
+    }
+  ],
+  "limitations": [
+    "Unjittered display RGB; fixed dimensions per sequence",
+    "No camera transform, exposure or HDR",
+    "Offline upload/readback and CPU fence per frame; not an engine hot path",
+    "Profile repeats fixed current/prior inputs; steady history and reset measurements separated"
+  ]
+}

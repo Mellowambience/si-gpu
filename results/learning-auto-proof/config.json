@@ -1,0 +1,79 @@
+{
+  "scale": 2,
+  "anchor_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "validation_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111
+  ],
+  "regression_seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211
+  ],
+  "audit_seeds": [
+    5000,
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    5006,
+    5007
+  ],
+  "new_pairs_per_cycle": 8,
+  "replay_capacity": 32,
+  "ridges": [
+    0.001,
+    0.003,
+    0.008,
+    0.009,
+    0.0095,
+    0.01,
+    0.03,
+    0.1
+  ],
+  "min_mean_gain_db": 0.01,
+  "max_scene_regression_db": 0.05,
+  "max_temporal_mse_ratio": 1.02,
+  "max_flicker_ratio": 1.05,
+  "cpu_reference_p95_ratio": 1.5,
+  "max_dataset_mib": 512,
+  "gpu_combined_p95_limits_ms": {
+    "1080p": 3,
+    "1440p": 4
+  },
+  "gpu_idle_utilization_max": 20,
+  "gpu_min_free_mib": 768
+}

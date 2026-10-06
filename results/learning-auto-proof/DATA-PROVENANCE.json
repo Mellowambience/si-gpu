@@ -1,0 +1,60 @@
+{
+  "rights": "Original procedural geometry generated locally by SI-GPU scene()",
+  "source": "Synthetic static pairs only; not gameplay captures or a broad generalization dataset",
+  "generator_sha256": "c17fe5577bac41089e8f83403e853ea52e46069939008412d54ca24a3fa93f2f",
+  "roles_frozen_before_search": {
+    "anchor_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "validation_seeds": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+    ],
+    "regression_seeds": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211
+    ],
+    "audit_seeds": [
+      5000,
+      5001,
+      5002,
+      5003,
+      5004,
+      5005,
+      5006,
+      5007
+    ]
+  },
+  "fresh_training_seeds": "10000 + cycle*new_pairs_per_cycle; no evaluation-scene overlap"
+}

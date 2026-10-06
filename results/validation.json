@@ -1,0 +1,12 @@
+{
+  "unit_tests_passed": 27,
+  "reference_temporal_suite_frames": 216,
+  "tiled_temporal_suite_frames": 216,
+  "tiled_edge_case_frames": 24,
+  "monitor_profile_final_frames_per_variant": 2,
+  "spatial_smoke_cases": 8,
+  "installed_package_temporal_smoke_frames": 2,
+  "debug_layer_suite_pass": true,
+  "p95_gate_pass": false,
+  "scope": "Offline D3D12 spatial+temporal reconstruction; engine, neural and camera/jitter/HDR paths pending"
+}

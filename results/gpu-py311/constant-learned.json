@@ -1,0 +1,49 @@
+{
+  "adapter": "NVIDIA GeForce RTX 2080 Ti",
+  "api": "D3D12 hardware compute",
+  "mode": "learned_linear",
+  "input_size": [
+    11,
+    7
+  ],
+  "output_size": [
+    22,
+    14
+  ],
+  "warmups": 100,
+  "samples": 20,
+  "gpu_p50_ms": 0.004416,
+  "gpu_p95_ms": 0.0054736,
+  "gpu_p99_ms": 0.00549792,
+  "gpu_buffer_payload_mib": 0.00602722,
+  "batch_submit_wait_ms": 52.5064,
+  "gpu_samples_ms": [
+    0.004096,
+    0.005472,
+    0.004608,
+    0.004256,
+    0.004096,
+    0.005504,
+    0.004576,
+    0.004256,
+    0.004096,
+    0.00528,
+    0.004608,
+    0.004448,
+    0.004096,
+    0.004096,
+    0.005376,
+    0.004544,
+    0.004384,
+    0.004096,
+    0.005312,
+    0.00432
+  ],
+  "scope": "Repeated fixed GPU-resident input; spatial dispatch plus UAV barrier only. Upload, readback, compilation, engine render and temporal passes excluded. Buffer payload is not peak VRAM.",
+  "max_abs_error": 0.0,
+  "mean_abs_error": 0.0,
+  "cpu_reference_single_run_ms": 0.483600000734441,
+  "parity_tolerance": 3e-06,
+  "parity_pass": true,
+  "input_sha256": "5bd7da3153efdbf4afbc336dcb8287fcab0fca0b155989912ecb45de7caaa5aa"
+}

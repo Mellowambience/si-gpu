@@ -1,0 +1,219 @@
+{
+  "adapter": "NVIDIA GeForce RTX 2080 Ti",
+  "debug_layer": true,
+  "input_size": [
+    96,
+    48
+  ],
+  "output_size": [
+    192,
+    96
+  ],
+  "frames": 16,
+  "repeats_per_frame": 1,
+  "warmups_per_frame": 0,
+  "capture_all": true,
+  "learned": false,
+  "gpu_buffer_payload_mib": 1.05484,
+  "offline_sequence_wall_ms": 133.001,
+  "timings": {
+    "spatial": {
+      "p50_ms": 0.007904,
+      "p95_ms": 0.009088,
+      "p99_ms": 0.009088,
+      "samples_ms": [
+        0.008704,
+        0.009088,
+        0.008768,
+        0.008448,
+        0.007744,
+        0.007648,
+        0.005664,
+        0.006176,
+        0.006784,
+        0.008672,
+        0.00672,
+        0.009088,
+        0.008064,
+        0.005984,
+        0.007328,
+        0.008576
+      ],
+      "steady_history_p50_ms": 0.007744,
+      "steady_history_p95_ms": 0.009088,
+      "reset_p50_ms": 0.008704
+    },
+    "temporal": {
+      "p50_ms": 0.006144,
+      "p95_ms": 0.007336,
+      "p99_ms": 0.0073552,
+      "samples_ms": [
+        0.003456,
+        0.006176,
+        0.00656,
+        0.006144,
+        0.005088,
+        0.006208,
+        0.006144,
+        0.006112,
+        0.005856,
+        0.006144,
+        0.00736,
+        0.006112,
+        0.006144,
+        0.006144,
+        0.007328,
+        0.006144
+      ],
+      "steady_history_p50_ms": 0.006144,
+      "steady_history_p95_ms": 0.0073376000000000005,
+      "reset_p50_ms": 0.003456
+    },
+    "combined": {
+      "p50_ms": 0.014144,
+      "p95_ms": 0.01528,
+      "p99_ms": 0.0153184,
+      "samples_ms": [
+        0.01216,
+        0.015264,
+        0.015328,
+        0.014592,
+        0.012832,
+        0.013856,
+        0.011808,
+        0.012288,
+        0.01264,
+        0.014816,
+        0.01408,
+        0.0152,
+        0.014208,
+        0.012128,
+        0.014656,
+        0.01472
+      ],
+      "steady_history_p50_ms": 0.014208,
+      "steady_history_p95_ms": 0.0152832,
+      "reset_p50_ms": 0.01216
+    }
+  },
+  "frame_combined_p50_ms": [
+    0.01216,
+    0.015264,
+    0.015328,
+    0.014592,
+    0.012832,
+    0.013856,
+    0.011808,
+    0.012288,
+    0.01264,
+    0.014816,
+    0.01408,
+    0.0152,
+    0.014208,
+    0.012128,
+    0.014656,
+    0.01472
+  ],
+  "scope": "GPU spatial+temporal dispatches and intervening/restore barriers. Upload, readback, compilation, CPU fence waits and engine rendering excluded. Repeats hold prior history fixed; history advances once per input frame. Reset and steady history timings must be reported separately. Buffer payload is not peak VRAM.",
+  "parity_pass": true,
+  "parity_tolerance": 5e-06,
+  "frame_parity": [
+    {
+      "frame": 0,
+      "reset": true,
+      "max_abs_error": 2.9802322387695312e-08,
+      "mean_abs_error": 1.1871937877216965e-09
+    },
+    {
+      "frame": 1,
+      "reset": false,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 1.2502520130297512e-09
+    },
+    {
+      "frame": 2,
+      "reset": false,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 1.2894614265235305e-09
+    },
+    {
+      "frame": 3,
+      "reset": false,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 1.3345992089242031e-09
+    },
+    {
+      "frame": 4,
+      "reset": false,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 1.4033166850779821e-09
+    },
+    {
+      "frame": 5,
+      "reset": false,
+      "max_abs_error": 5.960464477539063e-08,
+      "mean_abs_error": 1.5024852473288774e-09
+    },
+    {
+      "frame": 6,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 1.5519348028902868e-09
+    },
+    {
+      "frame": 7,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 1.61337621040758e-09
+    },
+    {
+      "frame": 8,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 1.67225755465239e-09
+    },
+    {
+      "frame": 9,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 1.768731383577915e-09
+    },
+    {
+      "frame": 10,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 1.7715608979784747e-09
+    },
+    {
+      "frame": 11,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 1.7906940374956548e-09
+    },
+    {
+      "frame": 12,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 1.9397163875112255e-09
+    },
+    {
+      "frame": 13,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 2.0126107447282493e-09
+    },
+    {
+      "frame": 14,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 2.006412591626372e-09
+    },
+    {
+      "frame": 15,
+      "reset": false,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 1.9797341543892344e-09
+    }
+  ],
+  "sequence_sha256": "cfa9f186e504d98c0a7604f1533dcd7f8aefd4ff524b4ad0e7fc04159bfb7666"
+}
